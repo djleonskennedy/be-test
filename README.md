@@ -42,12 +42,17 @@ Create a backend service using Node.js that manages data between multiple tables
 
 ### Deliverables:
 
-1. Repository with the backend code.
-2. Documentation:
-   - Setup instructions.
+1. **GitHub Repository**:
+   - Contains the backend code.
+   - Includes a README with setup instructions.
+   - Features an `npm start` script for easy testing.
+
+2. **Documentation**:
    - Endpoint descriptions.
    - Additional assumptions or decisions.
-3. Postman or equivalent tool setup for testing.
+   
+3. **API Collection**:
+   - Postman or equivalent tool setup for testing.
 
 ### Evaluation Criteria:
 
@@ -55,16 +60,19 @@ Create a backend service using Node.js that manages data between multiple tables
    - Clarity and modularity.
    - Error handling.
    - Proper use of async/await.
+   
 2. **Database Design**:
    - Normalization.
    - Relationship setup in Prisma.
+   
 3. **Authentication**:
    - API key authentication implementation.
    - [Bonus] SSI implementation.
+   
 4. **Testing**:
    - Scenario coverage.
    - Test correctness.
+   
 5. **Bonus**:
    - NestJS best practices: modules, decorators, and guards.
-   - [Bonus] Provide Postman/Insomnia collections for the API.
-
+   - Provide Postman/Insomnia collections for the API.
